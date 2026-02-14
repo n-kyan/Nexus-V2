@@ -1,0 +1,15 @@
+{
+    "your-stdio-server-name": {
+        "command": "python or npx",
+        "args": ["argument1", "argument2", ...],
+        "env": {
+            "ENV_VAR_NAME": "value"
+        },
+        "prompt_call": {
+            "YOUR_PROMPT_NAME": "WAKE_UP_PATTERN" /* You can call this prompt with "/{WAKE_UP_PATTERN}" in your message */
+        }
+    },
+    "your-sse-server-name": {
+        "url": "URL_TO_SERVER",
+    }
+}
